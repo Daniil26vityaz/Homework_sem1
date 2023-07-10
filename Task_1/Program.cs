@@ -18,9 +18,9 @@
 // 8 -> 2, 4, 6, 8
 
 Console.WriteLine("Введите первое число: ");
-int number1 = Convert.ToInt32(Console.ReadLine());
+double number1 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
-int number2 = Convert.ToInt32(Console.ReadLine());
+double number2 = Convert.ToDouble(Console.ReadLine());
 if(number1<number2){
     Console.WriteLine("max = " + number2);
     Console.WriteLine("min = " + number1);

@@ -4,12 +4,12 @@
 // 22 3 9 -> 22
 
 Console.WriteLine("Введите первое число: ");
-int number1 = Convert.ToInt32(Console.ReadLine());
+double number1 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
-int number2 = Convert.ToInt32(Console.ReadLine());
+double number2 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите третье число: ");
-int number3 = Convert.ToInt32(Console.ReadLine());
-int max = 0;
+double number3 = Convert.ToDouble(Console.ReadLine());
+double max = 0;
 if(number1>number2){
     if(number1>number3){
         max=number1;
