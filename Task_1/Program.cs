@@ -29,6 +29,7 @@ if(number1<number2){
 else{
     if(number1==number2){
             Console.WriteLine("Числа равны");}
-    Console.WriteLine("max = " + number1);
-    Console.WriteLine("min = " + number2);
+            else{
+                Console.WriteLine("max = " + number1);
+                Console.WriteLine("min = " + number2);}
 }
